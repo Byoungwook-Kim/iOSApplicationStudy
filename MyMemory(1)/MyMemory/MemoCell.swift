@@ -1,0 +1,18 @@
+//
+//  MemoCell.swift
+//  MyMemory
+//
+//  Created by Byoung_wook on 2021/08/17.
+//
+
+import UIKit
+
+class MemoCell: UITableViewCell {
+
+    @IBOutlet weak var subject: UILabel!
+    @IBOutlet weak var contents: UILabel!
+    @IBOutlet weak var regdate: UILabel!
+    @IBOutlet weak var img: UIImageView!
+    
+    
+}
