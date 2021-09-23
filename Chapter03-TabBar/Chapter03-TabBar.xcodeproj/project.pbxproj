@@ -28,6 +28,7 @@
 		7C0572A126D3CD1B00BCE426 /* homes_119.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C05729426D3CD1B00BCE426 /* homes_119.png */; };
 		7C0572A226D3CD1B00BCE426 /* menubar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C05729526D3CD1B00BCE426 /* menubar-bg.png */; };
 		7C0572A326D3CD1B00BCE426 /* connectivity-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C05729626D3CD1B00BCE426 /* connectivity-bar.png */; };
+		7C0572A626D46AEA00BCE426 /* NewAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0572A526D46AEA00BCE426 /* NewAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		7C05729426D3CD1B00BCE426 /* homes_119.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homes_119.png; sourceTree = "<group>"; };
 		7C05729526D3CD1B00BCE426 /* menubar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menubar-bg.png"; sourceTree = "<group>"; };
 		7C05729626D3CD1B00BCE426 /* connectivity-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connectivity-bar.png"; sourceTree = "<group>"; };
+		7C0572A526D46AEA00BCE426 /* NewAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		7C05726C26D25FEB00BCE426 /* Chapter03-TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				7C0572A526D46AEA00BCE426 /* NewAppDelegate.swift */,
 				7C05726D26D25FEB00BCE426 /* AppDelegate.swift */,
 				7C05726F26D25FEB00BCE426 /* SceneDelegate.swift */,
 				7C05727126D25FEB00BCE426 /* ViewController.swift */,
@@ -206,6 +209,7 @@
 				7C05728426D3C9CF00BCE426 /* SecondViewController.swift in Sources */,
 				7C05727226D25FEB00BCE426 /* ViewController.swift in Sources */,
 				7C05728726D3C9F600BCE426 /* ThirdViewController.swift in Sources */,
+				7C0572A626D46AEA00BCE426 /* NewAppDelegate.swift in Sources */,
 				7C05726E26D25FEB00BCE426 /* AppDelegate.swift in Sources */,
 				7C05727026D25FEB00BCE426 /* SceneDelegate.swift in Sources */,
 			);

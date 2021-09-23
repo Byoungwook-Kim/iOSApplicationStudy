@@ -7,7 +7,7 @@
 
 import UIKit
 
-@main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
@@ -28,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 for tbItem in tbItems {
                     let image = UIImage(named: "checkmark")?.withRenderingMode(.alwaysOriginal)
                     tbItem.selectedImage = image
+                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.gray], for: .disabled)
+                    tbItem.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.red], for: .selected)
+                    tbItem.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
                 }
                 
                 tbItems[0].title = "calendar"
